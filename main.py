@@ -7,10 +7,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-SESSION = os.getenv("SESSION")
+API_ID = int(os.getenv("36280754"))
+API_HASH = os.getenv("a81897f1a8b181ecef4b0a5b4aefafde")
+BOT_TOKEN = os.getenv("7647872907:AAE4nO4k1THhOv7kGU2Eh32vKw-oKaAJ2qw")
+SESSION = os.getenv("BQF1s6cAaNlw-BbbvdJlMv6J7vhAz6JEm8RSu1v14MDlFMRAHCh-5BRragzQCKztpT_j2PQKWOzgFAZLl_weU8HhABMKb03iH9npZHAJUbiYn1JA8mj6NZ9SZsq4uD8CLyh4kiXe1JALX3_Xb0xmkNHIhhwrThaCy9eFFcsKFUGTvJXRHZV16QZkVPI9VAlGY8qGfsY1QsqI821N7DxcfDuQ4IPH47jQfSe8wHb9udvJ5B9FMq9B3OFQYeujO4LZzG6EktoQZmiOJ-Xm8ia_dtUed_6REjd7qlrQZfKkcWDSzzP5v3-ligKSWlrOwWAriOifeIRG_KGOXwgRdZ-zEBECsdtMRQAAAAHUqEAcAA")
 
 # Bot Client
 app = Client("music_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
